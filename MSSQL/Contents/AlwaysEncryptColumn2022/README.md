@@ -11,12 +11,12 @@
 
 ## 2- Type of Encryption 
 
-Type |  Usage | Things to Note 
---------- | -------- | ------------ |
-Transparent Data Encryption (TDE) | Database Level | Data at rest, Decrypted While in motion from memory to storage Processor|
-Column Level Encryption | Column Level | DBA can Get to Data, SQL knows the keys|
-Dynamic Data Masking | Column Level | Not Really Encryption|
-Always Encrypted | Column Level | Encrypted Everywhere from Anyone Encrypted at rest in motion and in use |
+| Type                              | Usage          | Things to Note                                                           |
+| --------------------------------- | -------------- | ------------------------------------------------------------------------ |
+| Transparent Data Encryption (TDE) | Database Level | Data at rest, Decrypted While in motion from memory to storage Processor |
+| Column Level Encryption           | Column Level   | DBA can Get to Data, SQL knows the keys                                  |
+| Dynamic Data Masking              | Column Level   | Not Really Encryption                                                    |
+| Always Encrypted                  | Column Level   | Encrypted Everywhere from Anyone Encrypted at rest in motion and in use  |
 
 ## 3- What is AE and how it works?
 
